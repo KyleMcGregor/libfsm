@@ -1,4 +1,5 @@
 #include "../lib/abstract_event.hpp"
+#include <map>
 
 AbstractEvent::AbstractEvent(std::string name, std::string code) : name_{name}, code_{code}{
     #ifdef DEBUG
