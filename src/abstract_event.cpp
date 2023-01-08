@@ -14,3 +14,8 @@ AbstractEvent::~AbstractEvent(){
 std::string AbstractEvent::get_name() {
     return name_;
 }
+
+const std::string& AbstractEvent::get_name(){
+    return _name;
+}
+
